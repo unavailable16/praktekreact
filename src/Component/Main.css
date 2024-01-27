@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 155, 155);
+  }
+  
+img {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-inline: 10px;
+}
+
+.mainKonten{
+    margin-bottom: 10px;
+}
+
+.mainKonten h1,h4,a{
+    position:relative;
+    color : black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+ .subKonten {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.subKonten .card {
+    margin: 30px;
+    background-color: salmon ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.subKonten .card h1 {
+    margin-bottom: 20px;
+    font-size: 53px;
+}
+
+.subKonten .card p {
+    margin-bottom: 40px;
+    font-size: 21px;
+}
+
+ .subKonten .card .button {
+    width: 250px;
+    height: 60px;
+    border-radius: 360px;
+    background-color: #282A35;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.subKonten .card button:hover{
+    background-color: black;
+}
+
+
+
+.subKonten .card:nth-child(1) {
+    background-color: limegreen;
+}
+
+ .subKonten .card:nth-child(2) {
+    background-color: rgb(139, 0, 0);
+}
+
+ .subKonten .card:nth-child(3) {
+    background-color: rgb(53, 53, 250);
+}

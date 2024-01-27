@@ -1,0 +1,35 @@
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 60px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-inline: 7px;
+}
+
+li {
+    list-style: none;
+    margin-left: 7px; 
+    padding-bottom: 5px;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    padding-inline: 10px;
+    
+}
+
+.a:hover{
+    display: flex;
+    background-color: #353535;
+    height: 65px;
+    align-items: center;
+    transition: ease-in-out 0.1s;
+    padding-inline: 10px;
+}

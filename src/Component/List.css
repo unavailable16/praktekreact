@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+}
+
+h1,p{
+    justify-content: left;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+ul li img{
+    width: 55%;
+    height: 55%;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.ul > li {
+    flex: 1 0 calc(33.3333% - 10px);
+    box-sizing: border-box;
+    margin: 5px; 
+}
+
+.li{ 
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
